@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/juan.mejiam/Downloads/Cursos/Selenium/Proyectos/CursoCompletoUdemy/0. Proyectos Completos/Jenkins">
+        <classes>
+            <class name="tests.TC_001_ValidateLoginFunctionality">
+                <methods>
+                    <include name="tc_001_Login_Functionality"/>
+                </methods>
+            </class>
+            <class name="tests.TC_002_ValidateLoginFunctionality">
+                <methods>
+                    <include name="tc_001_Login_Functionality"/>
+                </methods>
+            </class>
+            <class name="tests.TC_003_ValidateLoginFunctionality">
+                <methods>
+                    <include name="tc_001_Login_Functionality"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
