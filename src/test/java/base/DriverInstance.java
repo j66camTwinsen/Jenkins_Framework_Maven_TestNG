@@ -38,8 +38,8 @@ public class DriverInstance {
             default:
                 throw new Exception("Incorrect Browser");
         }
-        driver.get(Utility.fetchPropertyValue("ApplicationURL").toString());
         driver.manage().window().maximize();
+        driver.get(Utility.fetchPropertyValue("ApplicationURL").toString());
     }
 
     @AfterMethod
