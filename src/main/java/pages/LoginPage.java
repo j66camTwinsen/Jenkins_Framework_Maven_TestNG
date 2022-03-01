@@ -11,7 +11,7 @@ public class LoginPage {
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(id = "email")
+    @FindBy(id = "email1")
     WebElement usernameInput;
     @FindBy(id = "pass")
     WebElement passwordInput;
